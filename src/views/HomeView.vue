@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     async fetchShowDetails () {
-      const showsList = await fetch('http://api.tvmaze.com/shows')
+      const showsList = await fetch('https://api.tvmaze.com/shows')
       .then((response) => response.json())
       .then((data) => {
         this.loading = false;
