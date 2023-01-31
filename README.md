@@ -8,7 +8,7 @@
 
 ## Deployed version
 
-Please find deployed version at
+Please find deployed version at [tv-shows-ten.vercel.app/](https://tv-shows-ten.vercel.app/)
 
 To run locally, follow the below steps:
 
