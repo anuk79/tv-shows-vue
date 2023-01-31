@@ -43,8 +43,15 @@ export default {
       this.show = toRaw(showsList);
     }
   },
-  created () {
+  created() {
     this.fetchShowDetails();
   },
+  watch: {
+    show(value) {
+      if (value) {
+        document.title = `${value.name} -  ABN Prime`;
+      }
+    }
+  }
 }
 </script>

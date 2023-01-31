@@ -51,6 +51,7 @@ export default {
   },
   created () {
     this.fetchShowDetails();
+    document.title = `Watch shows -  ABN Prime`;
   },
 };
 </script>
