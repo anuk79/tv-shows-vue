@@ -3,7 +3,7 @@
   <RouterView :key="$route.path" />
   <footer class="px-10 text-base italic pb-4">
     <hr />
-    <span class="inline-block pt-2">Created for ABN Amro assessment</span>
+    <span class="inline-block pt-2">Created using Vue 3</span>
   </footer>
 </template>
 <script>
